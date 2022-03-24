@@ -1,0 +1,10 @@
+version: '3'
+services:
+  drawio:
+    image: jgraph/drawio:17.2.1
+    container_name: drawio
+    ports:
+    - 28080:8080
+    - 28443:8443
+    restart: always
+    
